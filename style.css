@@ -2,7 +2,7 @@ body {
   font-family: "Roboto Slab", serif;
   margin: 0;
 }
-#amid {
+#background-img {
   background-image: url(https://www.teahub.io/photos/full/41-419298_background-image-for-restaurant-website.jpg);
 }
 .logo1 {
@@ -23,13 +23,13 @@ body {
   background-image: url(images/7.png);
   height: 350px;
 }
-.sp1 {
+.space1 {
   width: 50%;
 }
 .f1 {
   font-size: 50px;
 }
-.cl1 {
+.wordsgn1 {
   color: orangered;
 }
 .img1 {
@@ -41,7 +41,7 @@ body {
   text-decoration: none;
 }
 .linkcolor {
-  background-image: linear-gradient(orangered, orange);
+  background-color: red;
   color: white;
 
   padding-left: 2px;
@@ -49,7 +49,7 @@ body {
   border-radius: 5px;
   font-size: 15px;
 }
-.sp2 {
+.space2 {
   width: 50%;
   margin-top: 50px;
   padding-right: 4%;
@@ -67,11 +67,11 @@ body {
   box-shadow: 10px 10px 20px black;
   border-radius: 5%;
 }
-.s1 {
+.center1 {
   width: 50%;
   padding-left: 15%;
 }
-.s2 {
+.background {
   background-color: gray;
   margin: 0 3%;
 }
@@ -88,40 +88,27 @@ footer {
   width: 150px;
   border-radius: 20px;
 }
-.k {
+
+.div-edit {
   padding-left: 3%;
   border-radius: 20px;
   box-shadow: 1px 1px 20px gray;
   width: 15%;
   padding-top: 3%;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   height: 8.75cm;
+  /*border: 1px solid red;*/
 }
-.l {
+.txt-edit {
   width: 150px;
   padding-bottom: 10%;
   text-align: center;
 }
-.m {
-  padding-left: 3%;
-  border-radius: 20px;
-  box-shadow: 1px 1px 20px gray;
-  width: 15%;
-  height: 8.75cm;
-  padding-top: 3%;
-  margin-left: 10%;
-}
-.n {
-  border-radius: 20px;
-  padding-left: 3%;
-  padding-bottom: 5%;
-  box-shadow: 1px 1px 20px gray;
-  width: 15%;
-  height: 7cm;
-  padding-top: 3%;
-  margin-left: 2%;
-}
-.y {
+
+.flex1 {
   display: flex;
   margin-bottom: 50px;
+  margin-top: 20px;
+  /*border: 1px solid black;*/
+  justify-content: space-evenly;
 }
