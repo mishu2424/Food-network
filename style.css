@@ -1,0 +1,54 @@
+body {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+}
+.logo1 {
+  width: 150px;
+}
+.title {
+  font-size: 60px;
+
+  color: gray;
+  text-align: center;
+}
+.flex {
+  display: flex;
+  padding-left: 2%;
+  margin-bottom: 100px;
+}
+.bg1 {
+  background-image: url(images/7.png);
+  height: 350px;
+}
+.sp1 {
+  width: 50%;
+}
+.f1 {
+  font-size: 50px;
+}
+.cl1 {
+  color: orangered;
+}
+.img1 {
+  width: 400px;
+  padding-left: 150px;
+  margin-top: 50px;
+}
+.deco {
+  text-decoration: none;
+}
+.linkcolor {
+  background-image: linear-gradient(orangered, orange);
+  color: white;
+
+  padding-left: 2px;
+  padding-right: 2px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.sp2 {
+  width: 50%;
+  margin-top: 50px;
+  padding-right: 4%;
+  text-align: justify;
+}
