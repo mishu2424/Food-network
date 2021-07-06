@@ -52,3 +52,29 @@ body {
   padding-right: 4%;
   text-align: justify;
 }
+#center {
+  text-align: center;
+}
+.flex1 {
+  display: flex;
+}
+.s {
+  width: 50%;
+  padding-left: 15%;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 5%;
+}
+.s1 {
+  width: 50%;
+  padding-left: 15%;
+}
+.s2 {
+  border-radius: 30px;
+  background-color: wheat;
+}
+footer {
+  text-align: center;
+  color: whitesmoke;
+  background-color: rgb(22, 14, 10);
+  background-position: 100%;
+}
